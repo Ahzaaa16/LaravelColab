@@ -5,7 +5,7 @@ id="accordionSidebar">
 <div class="sidebar-brand-icon rotate-n-15">
 <i class="fas fa-shopping-basket"></i>
 </div>
-<div class="sidebar-brand-text mx-3">Cart Online</div>
+<div class="sidebar-brand-text mx-3">Event Blaze</div>
 </a>
 
 <!-- Divider -->
@@ -22,7 +22,7 @@ id="accordionSidebar">
 <li class="nav-item active">
 <a class="nav-link" href="/pelanggan">
 <i class="fas fa-fw fa-users"></i>
-<span>Pelanggan</span></a>
+<span>Peserta</span></a>
 </li>
 
 <!-- Divider -->
@@ -31,7 +31,7 @@ id="accordionSidebar">
 <li class="nav-item active">
 <a class="nav-link" href="/barang">
 <i class="fas fa-fw fa-gift"></i>
-<span>Barang</span></a>
+<span>Sponsor</span></a>
 </li>
 
 <!-- Divider -->
@@ -41,7 +41,7 @@ id="accordionSidebar">
 <li class="nav-item active">
 <a class="nav-link" href="/kategori">
 <i class="fas fa-fw fa-th-list"></i>
-<span>Kategori</span></a>
+<span>Event Acara</span></a>
 </li>
 
 <!-- Divider -->

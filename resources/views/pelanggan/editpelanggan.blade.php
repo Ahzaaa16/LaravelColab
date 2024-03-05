@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="p-3">
-    <h2>Edit Data Profile Pelanggan {{$profile->id}} </h2>
+    <h2>Edit Data Profile Peserta {{$profile->id}} </h2>
         <form action="/pelanggan/{{$profile->id}}" method="POST">
             @csrf
             @method('PUT')

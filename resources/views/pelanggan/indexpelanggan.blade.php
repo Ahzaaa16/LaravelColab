@@ -1,7 +1,7 @@
   @extends('layouts.admin')
 
   @section('judul')
-  Data Pelanggan
+  Data Peserta
   @endsection
 
   <!-- Page Heading -->
@@ -9,16 +9,15 @@
 
   <div class="p-3">
   <a href="/tambahpelanggan" class="btn btn-primary my-3">Tambah Data
-  Pelanggan</a>
+  Peserta</a>
   <table id="example1" class="table table-bordered table-striped">
     <thead>
         <tr>
           <th scope="col">No</th>
           <th scope="col">Nama Lengkap</th>
-          <th scope="col">No Hp</th>
-          <th scope="col">Alamat</th>
+          <th scope="col">Kontak Peserta</th>
+          <th scope="col">Asal</th>
           <th scope="col">Aksi</th>
-        </tr>
       </thead>
 
       <tbody>

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Website Toko Online</title>
+    <title>Event Blaze</title>
 
     @include('includes.style')
 

@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('judul', 'Tambah Profil Pelanggan')
+@section('judul', 'Tambah Profil Peserta')
 
 @section('content')
 <form action="/pelanggan" method="POST">
@@ -30,6 +30,7 @@
 </div>
 
 <div class="form-group p-3">
+    <a href="/pelanggan" class="btn btn-success my-3">Kembali</a>
     <button type="submit" class="btn btn-primary">Submit</button>
 </div>
 </form>
