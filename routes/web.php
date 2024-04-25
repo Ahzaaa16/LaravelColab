@@ -5,7 +5,8 @@ use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PelangganController;
-
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\BarangController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +35,10 @@ Route::get('/daftar', function() {
 })-> name('daftar');
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
+
+Route::resource('kategori', KategoriController::class);
+
+Route::resource('barang', BarangController::class);
 
 
 Route::get('/pelanggan', [PelangganController::class,'index']);
