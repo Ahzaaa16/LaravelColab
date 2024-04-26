@@ -34,6 +34,10 @@ Route::get('/daftar', function() {
     return view ('daftar');
 })-> name('daftar');
 
+Route::get('/homepage', function() {
+    return view ('homepage');
+})-> name('homepage');
+
 Route::get('/dashboard', [DashboardController::class, 'index']);
 
 Route::resource('kategori', KategoriController::class);
@@ -48,3 +52,6 @@ Route::post('/pelanggan', [PelangganController::class,'pelanggan']);
 Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class,'show']);
 Route::get('/pelanggan/{pelanggan_id}/edit', [PelangganController::class,'edit']);
 Route::put('/pelanggan/{pelanggan_id}', [PelangganController::class,'update']);
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
