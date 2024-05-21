@@ -13,8 +13,10 @@ class KategoriController extends Controller
      */
     public function index()
     {
+
+        $showmenuadmin = auth()->user()->isAdmin();
         $kategori = Kategori::all();
-        return view('kategori.index', compact('kategori'));
+        return view('kategori.index', compact('kategori','showmenuadmin'));
     }
 
     /**
@@ -22,9 +24,10 @@ class KategoriController extends Controller
      */
     public function create()
     {
+        $showmenuadmin = auth()->user()->isAdmin();
         $kategori = Kategori::all();
 
-        return view('kategori.tambah', ['kategori' => $kategori]);
+        return view('kategori.tambah', ['kategori' => $kategori], ['showmenuadmin' => $showmenuadmin]);
     }
 
     /**
@@ -50,8 +53,9 @@ class KategoriController extends Controller
      */
     public function show(string $id)
     {
+        $showmenuadmin = auth()->user()->isAdmin();
         $kategori = Kategori::find($id);
-        return view('kategori.detail', compact('kategori'));
+        return view('kategori.detail', compact('kategori', 'showmenuadmin'));
     }
 
     /**
@@ -59,8 +63,9 @@ class KategoriController extends Controller
      */
     public function edit(string $id)
     {
+        $showmenuadmin = auth()->user()->isAdmin();
         $kategori = Kategori::find($id);
-        return view('kategori.edit', compact('kategori'));
+        return view('kategori.edit', compact('kategori', 'showmenuadmin'));
     }
 
     /**

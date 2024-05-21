@@ -23,8 +23,15 @@ Route::get('/daftar' , [TestController::class, 'daftar']);
 Route::post('/kirim' , [TestController::class, 'kirim']);
 
 Route::get('/', function() {
-    return view ('welcome');
-})-> name('home');
+    return view ('homepage');
+});
+
+Route::middleware(['auth', 'web'])->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'index']);
+    Route::resource('barang', BarangController::class);
+    Route::resource('kategori', KategoriController::class);
+    // Rute lainnya...
+});
 
 Route::get('/pendataan', function() {
     return view ('pendataan');
@@ -34,11 +41,11 @@ Route::get('/daftar', function() {
     return view ('daftar');
 })-> name('daftar');
 
-Route::get('/homepage', function() {
-    return view ('homepage');
-})-> name('homepage');
+// Route::get('/homepage', function() {
+//     return view ('homepage');
+// })-> name('homepage');
 
-Route::get('/dashboard', [DashboardController::class, 'index']);
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 Route::resource('kategori', KategoriController::class);
 
@@ -52,6 +59,8 @@ Route::post('/pelanggan', [PelangganController::class,'pelanggan']);
 Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class,'show']);
 Route::get('/pelanggan/{pelanggan_id}/edit', [PelangganController::class,'edit']);
 Route::put('/pelanggan/{pelanggan_id}', [PelangganController::class,'update']);
+
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');

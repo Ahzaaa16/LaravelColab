@@ -6,17 +6,17 @@ Data Barang
 
 @section('tabel')
 <div class="p-3">
-    <a href="/barang/create" class="btn btn-primary my-3">Tambah Barang</a>
+    <a href="/barang/create" class="btn btn-primary my-3">Tambah Tiket</a>
     <table id="example1" class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th scope="col">No</th>
-                <th scope="col">Nama Barang</th>
-                <th scope="col">Harga Barang</th>
-                <th scope="col">Stock Barang</th>
-                <th scope="col">Deskripsi Barang</th>
-                <th scope="col">Gambar Barang</th>
-                <th scope="col">Kategori Barang</th>
+                <th scope="col">Nama Tiket</th>
+                <th scope="col">Harga Tiket</th>
+                <th scope="col">Stock Tiket</th>
+                <th scope="col">Deskripsi Tiket</th>
+                <th scope="col">Gambar Tiket</th>
+                <th scope="col">Kategori Tiket</th>
                 <th scope="col">Aksi</th>
             </tr>
         </thead>

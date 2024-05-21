@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('judul', 'Tambah Barang')
+@section('judul', 'Tambah Tiket')
 
 @section('content')
 <form action="/barang" method="POST" enctype="multipart/form-data">
@@ -22,8 +22,8 @@
 
             <div class="col">
                 <div class="form-group">
-                    <label>Harga Barang</label>
-                    <input type="number" name="harga" id="" class="form-control" placeholder="Masukan Harga Barang">
+                    <label>Harga Tiket</label>
+                    <input type="number" name="harga" id="" class="form-control" placeholder="Masukan Harga Tiket">
                     @error('harga')
                     <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
@@ -34,8 +34,8 @@
         <div class="row">
             <div class="col">
                 <div class="form-group">
-                    <label>Nama Barang</label>
-                    <input type="text" name="nama" id="" class="form-control" placeholder="Masukan Nama Barang">
+                    <label>Nama Tiket</label>
+                    <input type="text" name="nama" id="" class="form-control" placeholder="Masukan Nama Tiket">
                     @error('nama')
                     <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
@@ -57,8 +57,8 @@
 
             <div class="col">
                 <div class="form-group">
-                    <label>Stock Barang</label>
-                    <input type="number" name="stock" id="" class="form-control" placeholder="Masukan Stock Barang">
+                    <label>Stock Tiket</label>
+                    <input type="number" name="stock" id="" class="form-control" placeholder="Masukan Stock Tiket">
                     @error('stock')
                     <div class="alert alert-danger">{{ $message }}</div>
                     @enderror
@@ -67,7 +67,7 @@
 
             <div class="col">
                 <div class="form-group">
-                    <label>Barang</label>
+                    <label>Tiket</label>
                     <input type="file" name="filename" required class="form-control">
                 </div>
             </div>

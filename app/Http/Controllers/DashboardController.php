@@ -8,6 +8,7 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('pages.dashboard');
+        $showmenuadmin = auth()->user()->isAdmin();
+        return view('pages.dashboard', compact('showmenuadmin') );
     }
 }   

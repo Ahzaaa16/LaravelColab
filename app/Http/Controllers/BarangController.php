@@ -67,8 +67,9 @@ class BarangController extends Controller
      */
     public function show(string $id)
     {
+        $showmenuadmin = auth()->user()->isAdmin();
         $barang = Barang::find($id);
-        return view('barang.detail', compact('barang'));
+        return view('barang.detail', compact('barang','showmenuadmin'));
     }
 
     /**

@@ -6,8 +6,8 @@
 <form action="/kategori" method="POST">
     @csrf
     <div class="form-group p-3">
-        <label>Nama Kategori</label>
-        <input type="text" name='nama' class="form-control" placeholder="Masukan Nama Kategori">
+        <label>Nama Event</label>
+        <input type="text" name='nama' class="form-control" placeholder="Masukan Nama Event">
         @error('nama')
         <div class="alert alert-danger">{{ $message }}</div>
         @enderror

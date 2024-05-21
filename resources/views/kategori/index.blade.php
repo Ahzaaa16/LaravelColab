@@ -1,17 +1,17 @@
 @extends('layouts.admin')
 
 @section('judul')
-Data Kategori
+Event Acara
 @endsection
 
 @section('tabel')
 <div class="p-3">
-    <a href="/kategori/create" class="btn btn-primary my-3">Tambah Kategori</a>
+    <a href="/kategori/create" class="btn btn-primary my-3">Tambah Event Acara</a>
     <table id="example1" class="table table-bordered table-striped">
         <thead>
             <tr>
                 <th scope="col">No</th>
-                <th scope="col">Nama Kategori</th>
+                <th scope="col">Event yang hadir</th>
                 <th scope="col">Aksi</th>
             </tr>
         </thead>
