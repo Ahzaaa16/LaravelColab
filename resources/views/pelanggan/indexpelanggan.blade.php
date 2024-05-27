@@ -28,10 +28,9 @@
           <td>{{ $value->no_hp}}</td>
           <td>{{ $value->alamat}}</td>
           <td class="mr-3">
-          <a href="/pelanggan/{{$value->id}}" class="btn btn-info"
-          >Show </a>
-          <a href="/pelanggan/{{$value->id}}/edit" class="btn btnsuccess">Edit</a>
-          <a href="/pelanggan/ {{$value->id }}" class="btn btndanger" data-confirm-delete="true">Delete</a>
+          <a href="/pelanggan/{{$value->id}}" class="btn btn-info">Detail</a>
+          <a href="/pelanggan/{{$value->id}}/edit" class="btn btn-success">Edit</a>
+          <a href="/pelanggan/ {{$value->id}}" class="btn btn-danger" data-confirm-delete="true">Delete</a>
           </td>
         </tr>
       {{--tidak ada data --}}

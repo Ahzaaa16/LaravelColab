@@ -55,12 +55,6 @@
         </li>
     @else
         <!-- User Only Links -->
-        <li class="nav-item active">
-            <a class="nav-link" href="/transaksi">
-                <i class="fas fa-fw fa-credit-card"></i>
-                <span>Transaksi</span>
-            </a>
-        </li>
     @endif
     
     <!-- Divider -->
