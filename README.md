@@ -15,9 +15,11 @@ Fitur ini memungkinkan pengguna untuk membeli tiket secara online dengan cepat d
 Platform ini menyediakan informasi lengkap tentang berbagai acara yang akan datang, termasuk detail acara, jadwal, lokasi, dan deskripsi acara.
 
 ## Hubungi Kami
-Email : 
-Alamat :
-No Telepon :
+Email : rayhanahzawidyamukti@gmail.com
+
+Alamat :  Jl DI Panjaitan 128, Purwokerto Selatan, Banyumas, Jawa Tengah
+
+No Telepon : +62-852-2843-8178
 
 ## Informasi Lebih Lanjut
 Kami membayangkan dunia di mana menghadiri acara menjadi mudah dan menyenangkan. Tujuan kami adalah membuat penemuan acara dan pembelian tiket semudah dan sesederhana mungkin, sehingga Anda dapat fokus pada keseruan dan kenikmatan acara itu sendiri.
