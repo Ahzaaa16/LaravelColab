@@ -2,16 +2,14 @@
 
 ## Tentang
 
-EventBlazer adalah platform penyelenggaraan acara yang memudahkan Anda dalam mengelola dan menyelenggarakan berbagai jenis acara, mulai dari acara kecil hingga acara besar. Dengan fitur-fitur yang intuitif dan lengkap, EventBlazer hadir untuk membantu Anda membuat acara yang sukses dan tak terlupakan.
+Event Blazer adalah platform daring yang didedikasikan untuk menyediakan informasi lengkap dan akses yang mudah terhadap beragam acara dan kegiatan yang sedang berlangsung di sekitar Anda. Dengan fokus pada kenyamanan dan kepuasan pengguna, Event Blazer menghadirkan pengalaman eksplorasi acara yang menarik dan menyenangkan.
 
 ## Fitur
 
 EventBlazer dilengkapi dengan berbagai fitur yang dapat membantu Anda dalam setiap tahap penyelenggaraan acara, termasuk:
 
-- Manajemen acara yang mudah
-- Pendaftaran peserta yang terintegrasi
-- Pengelolaan tiket dan pembayaran online
-- Penjadwalan acara yang fleksibel
-- Pengiriman undangan dan pengingat acara kepada peserta
-- Analisis data dan pelaporan acara
-- Dan banyak lagi fitur menarik lainnya!
+## Tiket
+Fitur ini memungkinkan pengguna untuk membeli tiket secara online dengan cepat dan aman untuk berbagai acara yang tersedia di platform.
+
+## Event Acara
+Platform ini menyediakan informasi lengkap tentang berbagai acara yang akan datang, termasuk detail acara, jadwal, lokasi, dan deskripsi acara.
