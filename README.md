@@ -32,7 +32,10 @@ Kami membayangkan dunia di mana menghadiri acara menjadi mudah dan menyenangkan.
 Ketua : Rayhan Ahza Widyamukti(28)
 Anggota : 
 Akmal Ramdhan Alfarezi (03)
+
 Aprilia Purwaningsih (06)
+
 Alifah Zahra Agustina Putri (14)
+
 Radista Al-amadis Z (25)
 
