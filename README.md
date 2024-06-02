@@ -16,6 +16,7 @@ Platform ini menyediakan informasi lengkap tentang berbagai acara yang akan data
 
 ## Foto Website EventBlazer:
 ![alt text](https://github.com/Ahzaaa16/LaravelColab/blob/main/app/properti%20foto/Screenshot%202024-06-02%20185004.png?raw=true)
+![alt text](https://github.com/Ahzaaa16/LaravelColab/blob/main/app/properti%20foto/Screenshot%202024-06-02%20185040.png?raw=true)
 
 ## Hubungi Kami
 Email : rayhanahzawidyamukti@gmail.com
