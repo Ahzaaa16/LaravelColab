@@ -27,3 +27,12 @@ No Telepon : +62-852-2843-8178
 
 ## Informasi Lebih Lanjut
 Kami membayangkan dunia di mana menghadiri acara menjadi mudah dan menyenangkan. Tujuan kami adalah membuat penemuan acara dan pembelian tiket semudah dan sesederhana mungkin, sehingga Anda dapat fokus pada keseruan dan kenikmatan acara itu sendiri.
+
+## Kelompok 4
+Ketua : Rayhan Ahza Widyamukti(28)
+Anggota : 
+Akmal Ramdhan Alfarezi (03)
+Aprilia Purwaningsih (06)
+Alifah Zahra Agustina Putri (14)
+Radista Al-amadis Z (25)
+
