@@ -41,3 +41,7 @@ Alifah Zahra Agustina Putri (14)
 
 Radista Al-amadis Z (25)
 
+
+## Framework:
+- Laravel
+
